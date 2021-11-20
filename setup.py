@@ -2,7 +2,7 @@ from distutils.core import setup
 setup(
   name = 'StatistikPendidikan',
   packages = ['StatistikPendidikan'],
-  version = '0.1',
+  version = '0.1.1',
   license='MIT',
   description = 'Library ini digunakan untuk memudahkan ekstraksi data dari http://statistik.data.kemdikbud.go.id/',
   author = 'Aryya Widigdha',
