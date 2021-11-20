@@ -1,1 +1,0 @@
-from statistikpendidikan.processor import getGambaranUmumSekolah
