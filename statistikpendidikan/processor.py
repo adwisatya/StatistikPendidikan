@@ -1,7 +1,7 @@
 import requests
 import lxml.html as lh
 import json
-from statistik_pendidikan.get import getHtmlResponse
+from statistikpendidikan.get import getHtmlResponse
 
 def getGambaranUmumSekolah(tingkatan,tahun_ajaran):
 	doc = getHtmlResponse(tingkatan,tahun_ajaran,"1")
