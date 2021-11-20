@@ -2,7 +2,7 @@ from distutils.core import setup
 setup(
   name = 'StatistikPendidikan',
   packages = ['StatistikPendidikan'],
-  version = '0.1.1.2',
+  version = '0.1.1.3',
   license='MIT',
   description = 'Library ini digunakan untuk memudahkan ekstraksi data dari http://statistik.data.kemdikbud.go.id/',
   author = 'Aryya Widigdha',
@@ -12,7 +12,7 @@ setup(
   keywords = ['kemendikbud', 'statistik pendidikan', 'KEYWORDS'],
   install_requires=[
           'requests',
-	  'lxml.html',
+	  'lxml',
       ],
   classifiers=[
     'Development Status :: 3 - Alpha',
