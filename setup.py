@@ -1,10 +1,15 @@
-from distutils.core import setup
+from distutils.core import setup, Extension
+
+with open("README", "r", encoding="utf-8") as fh:
+    long_description = fh.read()
+
 setup(
   name = 'StatistikPendidikan',
   packages = ['StatistikPendidikan'],
-  version = '0.2',
+  version = '0.2.1',
   license='MIT',
   description = 'Library ini digunakan untuk memudahkan ekstraksi data dari http://statistik.data.kemdikbud.go.id/',
+  long_description=long_description,
   author = 'Aryya Widigdha',
   author_email = 'aryya.widigdha@yahoo.com',
   url = 'https://github.com/adwisatya/StatistikPendidikan',
