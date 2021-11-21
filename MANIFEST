@@ -2,6 +2,7 @@
 README
 setup.cfg
 setup.py
+StatistikPendidikan/KemdikbudScrapper.py
 StatistikPendidikan/__init__.py
 StatistikPendidikan/get.py
 StatistikPendidikan/processor.py

@@ -1,1 +1,1 @@
-from StatistikPendidikan.processor import getGambaranUmumSekolah
+from StatistikPendidikan.KemdikbudScrapper import KemdikbudScrapper
