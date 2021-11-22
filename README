@@ -39,8 +39,6 @@ Fungsi Tersedia
 1. getGambaranUmumSekolahByStatus
 2. getGambaranUmumSekolahPerProvinsi
 3. getGambaranUmumSekolahPerProvinsiPerWaktuPenyelenggaraan
-
-License
--------
+4. getJumlahSiswaMenurutAgamaTiapProvinsi License ----
 
 MIT License

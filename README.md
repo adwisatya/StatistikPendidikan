@@ -25,7 +25,7 @@ api.getGambaranUmumSekolahPerProvinsi()
 1. getGambaranUmumSekolahByStatus   
 2. getGambaranUmumSekolahPerProvinsi   
 3. getGambaranUmumSekolahPerProvinsiPerWaktuPenyelenggaraan
-
+4. getJumlahSiswaMenurutAgamaTiapProvinsi
 License
 ----
 

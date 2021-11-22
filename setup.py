@@ -1,4 +1,6 @@
 from distutils.core import setup, Extension
+import subprocess
+subprocess.run(["pandoc","--from=markdown","--to=rst","--output=README","README.md"])
 
 with open("README", "r", encoding="utf-8") as fh:
     long_description = fh.read()
@@ -6,7 +8,7 @@ with open("README", "r", encoding="utf-8") as fh:
 setup(
   name = 'StatistikPendidikan',
   packages = ['StatistikPendidikan'],
-  version = '0.3.1',
+  version = '0.4',
   license='MIT',
   description = 'Library ini digunakan untuk memudahkan ekstraksi data dari http://statistik.data.kemdikbud.go.id/',
   long_description=long_description,
