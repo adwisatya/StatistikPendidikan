@@ -26,6 +26,12 @@ api.getGambaranUmumSekolahPerProvinsi()
 2. getGambaranUmumSekolahPerProvinsi   
 3. getGambaranUmumSekolahPerProvinsiPerWaktuPenyelenggaraan
 4. getJumlahSiswaMenurutAgamaTiapProvinsi
+5. getJumlahSiswaMenurutjenisKelaminDanStatusSekolahTiapProvinsi
+
+## Changelog:
+### v0.5
+1. Penambahan function getJumlahSiswaMenurutjenisKelaminDanStatusSekolahTiapProvinsi
+2. Perbaikan response pada getGambaranUmumSekolahPerProvinsiPerWaktuPenyelenggaraan dan getJumlahSiswaMenurutAgamaTiapProvinsi
 License
 ----
 

@@ -8,7 +8,7 @@ with open("README", "r", encoding="utf-8") as fh:
 setup(
   name = 'StatistikPendidikan',
   packages = ['StatistikPendidikan'],
-  version = '0.4',
+  version = '0.5',
   license='MIT',
   description = 'Library ini digunakan untuk memudahkan ekstraksi data dari http://statistik.data.kemdikbud.go.id/',
   long_description=long_description,
