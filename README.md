@@ -1,3 +1,4 @@
+
 # Statistik Pendidikan - Scrapper Data http://statistik.data.kemdikbud.go.id
 Library ini digunakan untuk memudahkan developer atau user dalam mengakses data dari statistik.data.kemdikbud.go.id dalam bentuk json sehingga lebih mudah diolah
 
@@ -31,7 +32,12 @@ api.getGambaranUmumSekolahPerProvinsi()
 ## Changelog:
 ### v0.5
 1. Penambahan function getJumlahSiswaMenurutjenisKelaminDanStatusSekolahTiapProvinsi
-2. Perbaikan response pada getGambaranUmumSekolahPerProvinsiPerWaktuPenyelenggaraan dan getJumlahSiswaMenurutAgamaTiapProvinsi
+2. Perbaikan response pada getGambaranUmumSekolahPerProvinsiPerWaktuPenyelenggaraan dan getJumlahSiswaMenurutAgamaTiapProvinsi   
+
+## Stats
+[![Downloads](https://static.pepy.tech/personalized-badge/statistikpendidikan?period=total&units=international_system&left_color=black&right_color=orange&left_text=Downloads)](https://pepy.tech/project/statistikpendidikan)
+
+     
 License
 ----
 
